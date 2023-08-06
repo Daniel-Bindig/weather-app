@@ -1,0 +1,25 @@
+header {
+    color: white;
+    background: rgb(0,0,170);
+    background: linear-gradient(90deg, rgba(0,0,170,1) 9%, rgba(9,5,71,1) 76%);
+}
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+aside {
+    float: left;
+    height: 300px;
+}
+
+.daily-weather {
+    min-height: 100px;
+    min-width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    color: white;
+}
+
