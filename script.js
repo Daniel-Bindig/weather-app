@@ -29,14 +29,9 @@ function getWeather(lat, lon) {
             })
             .then(function (data) {
                 console.log(data)
-                showWeather(data)
             })
 }
 
 function showWeather(data) {
-    let row = document.querySelector('.days.row')
-    row.innerHTML = response.daily.map(function(day) {
-        return '<p>Day<p>'
-    }).join(' ');
+
 }
-searchButton.addEventListener('search', fetchLocation())
