@@ -11,6 +11,7 @@ main {
 aside {
     float: left;
     height: 300px;
+    border-radius: 3px;
 }
 
 .daily-weather {
